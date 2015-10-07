@@ -1,0 +1,14 @@
+extends layout
+
+block append content
+
+  h1 Hello World
+
+  form(action="/subscribe", method="post")
+    .form-group
+      label(for="name-input") Name
+      input#name-input.form-control(name="name", placeholder="Your name", type="text")
+    .form-group
+      label(for="email-input") Email
+      input#email-input.form-control(name="email", placeholder="Your email", type="text")
+    button.btn.btn-success(type="submit") Subscribe 
