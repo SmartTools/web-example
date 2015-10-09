@@ -8,6 +8,7 @@
     "start": "node server.js"
   },
   "author": "Ilya Siganov <ilya.blan4@gmail.com>",
+  "repository": "https://github.com/SmartTools/web-example",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.14.1",

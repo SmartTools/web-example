@@ -1,15 +1,16 @@
 #SmartActors Example App
 
-##Add dependency
-
-Go to SmartActors project and run `mvn install::install-file -Dfile=target/smartactors-1.0-SNAPSHOT.jar -DgroupId=info.smart_tools -DartifactId=smartactors -Dversion=1.0-SNAPSHOT -Dpackaging=jar`. This command compile project and save jar file in `~/.m2/repository` directory.
-
-In your maven brand new application add dependency. 
+##How to start
 
 ```
-<dependency>
-    <groupId>info.smart_tools</groupId>
-    <artifactId>smartactors</artifactId>
-    <version>1.0-SNAPSHOT</version>
-</dependency>	
+cd backend
+mvn clean package
+java -jar target/webExample-1.0-SNAPSHOT-jar-with-dependencies.jar
+# in new terminal
+cd frontend
+npm install
+npm start
+# in new terminal
+npm install
+gulp
 ```

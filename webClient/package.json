@@ -1,0 +1,16 @@
+{
+  "name": "smart_actors_example_web",
+  "version": "1.0.0",
+  "description": "Static scripts and stylesheets are here.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ilya Siganov <ilya.blan4@gmail.com>",
+  "repository": "https://github.com/SmartTools/web-example",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.9.10",
+    "gulp": "^3.9.0"
+  }
+}
